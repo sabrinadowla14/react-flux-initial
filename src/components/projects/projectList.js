@@ -2,6 +2,9 @@
 //don't need projectApi, since data is coming from the
 //parents
 var React = require('react');
+
+var Router = require('react-router');
+var Link = Router.Link;
 var ProjectList = React.createClass({
   //this array is required
   // propTypes: {
